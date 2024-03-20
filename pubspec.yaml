@@ -1,11 +1,13 @@
 name: tatweerui
 description: "A UI library for Flutter providing custom buttons, switches, dialogs, and more."
 version: 0.0.10
-homepage:
+homepage: https://tatweerresearch.org
+repository: https://github.com/mohammednAlogly/tatweerui-flutter
+
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=2.0.0 <3.0.0"
+  sdk: '>=2.12.0 <4.0.0'
+  flutter: ">=2.12.0"
 
 dependencies:
   flutter:
@@ -25,6 +27,7 @@ flutter:
     platforms:
       ios:
         pluginClass: TatweeruiPlugin
+        sharedDarwinSource: true
       android:
         package: com.tatweer.ui
         pluginClass: HelloPlugin  
@@ -32,6 +35,7 @@ flutter:
         pluginClass: TatweeruiPlugin
       macos:
         pluginClass: TatweeruiPlugin
+        sharedDarwinSource: true
       windows:
         pluginClass: TatweeruiPlugin
       web:

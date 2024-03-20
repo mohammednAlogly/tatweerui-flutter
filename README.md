@@ -2,7 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/adelbograyn/tatweerui-vue/main/public/tatweer.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px; width: 100px; height: auto;" />
+
 
 
 `tatweerui` is a Flutter package that provides a collection of custom UI components for building Flutter applications. This package includes custom buttons, switches, list sections, list tiles, base dialogs, and info dialogs.
